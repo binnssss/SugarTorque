@@ -1,15 +1,31 @@
-[
-    {
-        "albumId": 1,
+{
+    "posts": [
+      {
         "id": 1,
-        "productName": "Fasting Stick",
-        "url": "http://cdn.shopify.com/s/files/1/1689/5369/products/F21_Centered_1024x1024.jpg?v=1589387778"
-    },
-
-    {
-        "albumId": 1,
+        "title": "Post 1"
+      },
+      {
+        "id": 2,
+        "title": "Post 2"
+      },
+      {
+        "id": 3,
+        "title": "Post 3"
+      }
+    ],
+    "comments": [
+      {
         "id": 1,
-        "productName": "Fasting Stick",
-        "url": 2
+        "body": "some comment",
+        "postId": 1
+      },
+      {
+        "id": 2,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "profile": {
+      "name": "typicode"
     }
-]
+  }
